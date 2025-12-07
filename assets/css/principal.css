@@ -403,6 +403,14 @@ section{
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .precios {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
 .precios::before {
   content: '';
   position: absolute;
@@ -1267,4 +1275,5 @@ section{
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
 
 }
+
 
