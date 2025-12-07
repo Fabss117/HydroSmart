@@ -403,14 +403,6 @@ section{
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .precios {
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
 .precios::before {
   content: '';
   position: absolute;
@@ -419,6 +411,20 @@ section{
   right: 0;
   bottom: 0;
   background: rgba(50, 50, 51, 0.85);
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .precios {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .precios::before {
+    background: rgba(50, 50, 51, 0.90);
+  }
 }
 
 .precios .container {
@@ -1275,5 +1281,6 @@ section{
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
 
 }
+
 
 
