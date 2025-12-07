@@ -1,0 +1,1033 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HydroSmart</title>
+    <link rel="icon" type="image/png" href="assets/images/icono_1.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/principal.css">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/Logo_1.png" alt="Logo" width="auto" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav efecto_menu">
+            <a class="nav-link active fs-5" aria-current="page" href="#inicio">Inicio</a>
+            <a class="nav-link fs-5" href="#caracteristicas">Características</a>
+            <a class="nav-link fs-5" href="#precios">Precio</a>
+            <a class="nav-link fs-5" href="#testimonios">Testimonios</a>
+            <a class="nav-link fs-5" href="#contacto">Contacto</a>
+          </div>
+           <button class="btn btn-primary btn-comprar-nav ms-auto" data-bs-toggle="modal" data-bs-target="#modalCompra">
+             Comprar
+           </button>
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <section class="hero" id="inicio">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1 class="hero-title">Mantente hidratado inteligentemente</h1>
+          <p class="hero-subtitle">La botella que cuida de tu salud con recordatorios LED y app móvil</p>
+          <a href="#" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalCompra">Comprar Ahora</a>
+        </div>
+      </div>
+    </section>
+    <!--Sección Características-->
+    <section class="caracteristicas" id="caracteristicas">
+      <div class="container">
+        <div class="texto-encabezado">
+          <h2>Características Principales</h2>
+          <p>Descubre todo lo que hace especial a HydroSmart</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">💡</div>
+              <h3>Recordatorios LED</h3>
+              <p>Luz inteligente que brilla cuando es momento de hidratarte. Nunca olvides tomar agua.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">📱</div>
+              <h3>App Móvil</h3>
+              <p>Conecta tu botella y rastrea tu consumo diario de agua desde tu smartphone.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">🔋</div>
+              <h3>Batería Duradera</h3>
+              <p>Hasta 30 días de uso continuo sin necesidad de recargar.Olvídate de los cables.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">🌡️</div>
+              <h3>Sensor de Temperatura</h3>
+              <p>Pantalla digital que muestra la temperatura exacta de tu bebida en tiempo real.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">♻️</div>
+              <h3>Libre de BPA</h3>
+              <p>Material de acero inoxidable premium, seguro para tu salud y el medio ambiente.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="caracteristica-card">
+              <div class="icono">💧</div>
+              <h3>Capacidad Perfecta</h3>
+              <p>1 lt de agua ideal para mantenerte hidratado durante todo el día.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Sección de precios-->
+    <section class="precios" id="precios">
+      <div class="container">
+        
+        <!--Encabezado-->
+        <div class="texto-encabezado">
+          <h2>Obtén tu HydroSmart</h2>
+          <p>La mejor inversión en tu salud e hidratación</p>
+        </div>
+        
+        <!--Fila con tarjeta + carousel-->
+        <div class="row justify-content-center align-items-start gy-4">
+          
+          <!--COLUMNA 1: Tarjeta de precio-->
+          <div class="col-lg-6 col-md-10">
+            <div class="precio-card">
+              
+              <div class="badge-oferta">Oferta de Lanzamiento</div>
+              <h3 class="producto-nombre">HydroSmart Pro</h3>
+              
+              <!--Selector de color-->
+              <div class="selector-color">
+                <label class="selector-label">Elige tu color:</label>
+                <div class="colores-opciones">
+                  <button type="button" class="color-btn active" data-color="Negro" data-slide="0" style="background-color: #2c3e50;"></button>
+                  <button type="button" class="color-btn" data-color="Azul" data-slide="1" style="background-color: #3498db;"></button>
+                  <button type="button" class="color-btn" data-color="Rosa" data-slide="2" style="background-color: #e91e63;"></button>
+                  <button type="button" class="color-btn" data-color="Verde" data-slide="3" style="background-color: #27ae60;"></button>
+                  <button type="button" class="color-btn" data-color="Morado" data-slide="4" style="background-color: #9b59b6;"></button>
+                  <button type="button" class="color-btn" data-color="Blanco" data-slide="5" style="background-color: #ecf0f1; border: 2px solid #bdc3c7;"></button>
+                </div>
+                <p class="color-seleccionado">Color seleccionado: <strong id="colorTexto">Negro</strong></p>
+              </div>
+              
+              <!--Opción para personalizar-->
+              <div class="personalizacion-seccion">
+                <div class="form-check personalizacion-check">
+                  <input class="form-check-input" type="checkbox" id="personalizarCheck">
+                  <label class="form-check-label" for="personalizarCheck">
+                    ✨ Quiero personalizar mi botella (+$5.00)
+                  </label>
+                </div>
+                
+                <div class="personalizacion-campos" id="camposPersonalizacion" style="display: none;">
+                  <div class="mb-3">
+                    <label for="nombrePersonalizado" class="form-label">Tu nombre (máx. 12 caracteres):</label>
+                    <input type="text" class="form-control" id="nombrePersonalizado" maxlength="12" placeholder="Ej: María">
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label class="form-label">Elige un emoji:</label>
+                    <div class="emoji-selector">
+                      <button type="button" class="emoji-btn" data-emoji="😊">😊</button>
+                      <button type="button" class="emoji-btn" data-emoji="❤️">❤️</button>
+                      <button type="button" class="emoji-btn" data-emoji="⭐">⭐</button>
+                      <button type="button" class="emoji-btn" data-emoji="🔥">🔥</button>
+                      <button type="button" class="emoji-btn" data-emoji="💪">💪</button>
+                      <button type="button" class="emoji-btn" data-emoji="🌟">🌟</button>
+                      <button type="button" class="emoji-btn" data-emoji="💧">💧</button>
+                      <button type="button" class="emoji-btn" data-emoji="🎯">🎯</button>
+                    </div>
+                    <p class="emoji-seleccionado">Emoji seleccionado: <span id="emojiTexto">Ninguno</span></p>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Precio-->
+              <div class="precio-principal">
+                <span class="simbolo">$</span>
+                <span class="cantidad" id="precioNumero">29</span>
+                <span class="centavos">.99</span>
+              </div>
+              
+              <p class="precio-descripcion">Pago único • Sin suscripciones</p>
+              
+              <!--Lista de beneficios-->
+              <ul class="beneficios-lista">
+                <li><span class="check">✓</span> Botella inteligente con LED</li>
+                <li><span class="check">✓</span> App móvil incluida</li>
+                <li><span class="check">✓</span> Batería de 30 días</li>
+                <li><span class="check">✓</span> Material libre de BPA</li>
+                <li><span class="check">✓</span> Envío gratis + Garantía</li>
+              </ul>
+              
+              <a href="#" class="btn btn-primary btn-lg btn-comprar" data-bs-toggle="modal" data-bs-target="#modalCompra">Comprar Ahora</a>
+              <p class="texto-garantia">🔒 Compra 100% segura • Devolución en 30 días</p>
+              
+            </div>
+          </div>
+          
+          <!--COLUMNA 2: Carousel-->
+          <div class="col-lg-5 col-md-10">
+            <div class="carousel-container">
+              <h4 class="carousel-titulo">Elige tu color favorito</h4>
+              
+              <div id="carouselColores" class="carousel slide">
+                
+                <!--Indicadores-->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carouselColores" data-bs-slide-to="5"></button>
+                </div>
+                
+                <!--Slides-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/termo_n.png" class="d-block w-100" alt="Negro">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Negro Clásico</h5>
+                      <p>Elegante y atemporal</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="assets/images/termo_a.png" class="d-block w-100" alt="Azul">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Azul Océano</h5>
+                      <p>Fresco y vibrante</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="assets/images/termo_r.png" class="d-block w-100" alt="Rosa">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Rosa Pasión</h5>
+                      <p>Moderno y llamativo</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="assets/images/termo_v.png" class="d-block w-100" alt="Verde">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Verde Natural</h5>
+                      <p>Eco-friendly</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="assets/images/termo_m.png" class="d-block w-100" alt="Morado">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Morado Real</h5>
+                      <p>Sofisticado</p>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="assets/images/termo_b.png" class="d-block w-100" alt="Blanco">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Blanco Puro</h5>
+                      <p>Minimalista</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Controles-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselColores" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselColores" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Sección de Testimonios -->
+    <section class="testimonios" id="testimonios">
+      <div class="container">
+        
+        <!-- Encabezado -->
+        <div class="texto-encabezado">
+          <h2>Lo que dicen nuestros clientes</h2>
+          <p>Miles de personas ya confían en HydroSmart</p>
+        </div>
+        
+        <!-- Grid de testimonios -->
+        <div class="row gy-4">
+          
+          <!-- Testimonio 1 -->
+          <div class="col-md-4">
+            <div class="testimonio-card">
+              <div class="testimonio-header">
+                <img src="https://ui-avatars.com/api/?name=Maria+Gonzalez&background=667eea&color=fff&size=80" alt="María González" class="testimonio-foto">
+                <div class="testimonio-info">
+                  <h4>María González</h4>
+                  <p class="testimonio-ubicacion">Ciudad de México</p>
+                </div>
+              </div>
+              
+              <div class="testimonio-estrellas">
+                ⭐⭐⭐⭐⭐
+              </div>
+              
+              <p class="testimonio-texto">
+                "Desde que uso HydroSmart, nunca olvido tomar agua. Los recordatorios LED son perfectos y la app es muy intuitiva. ¡100% recomendada!"
+              </p>
+            </div>
+          </div>
+          
+          <!-- Testimonio 2 -->
+          <div class="col-md-4">
+            <div class="testimonio-card">
+              <div class="testimonio-header">
+                <img src="https://ui-avatars.com/api/?name=Carlos+Ramirez&background=27ae60&color=fff&size=80" alt="Carlos Ramírez" class="testimonio-foto">
+                <div class="testimonio-info">
+                  <h4>Carlos Ramírez</h4>
+                  <p class="testimonio-ubicacion">Monterrey</p>
+                </div>
+              </div>
+              
+              <div class="testimonio-estrellas">
+                ⭐⭐⭐⭐⭐
+              </div>
+              
+              <p class="testimonio-texto">
+                "Como deportista, mantenerme hidratado es crucial. Esta botella cambió mi rutina completamente. La batería dura semanas."
+              </p>
+            </div>
+          </div>
+          
+          <!-- Testimonio 3 -->
+          <div class="col-md-4">
+            <div class="testimonio-card">
+              <div class="testimonio-header">
+                <img src="https://ui-avatars.com/api/?name=Ana+Martinez&background=e91e63&color=fff&size=80" alt="Ana Martínez" class="testimonio-foto">
+                <div class="testimonio-info">
+                  <h4>Ana Martínez</h4>
+                  <p class="testimonio-ubicacion">Guadalajara</p>
+                </div>
+              </div>
+              
+              <div class="testimonio-estrellas">
+                ⭐⭐⭐⭐⭐
+              </div>
+              
+              <p class="testimonio-texto">
+                "El diseño es hermoso y la función de temperatura es increíble. Mis amigas ya quieren una igual. Mejor compra del año."
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+      <div class="container">
+        
+        <!-- Encabezado -->
+        <div class="texto-encabezado">
+          <h2>Contáctanos</h2>
+          <p>¿Tienes dudas? Estamos aquí para ayudarte</p>
+        </div>
+        
+        <!-- Fila con formulario e info -->
+        <div class="row gy-4">
+          
+          <!-- Columna 1: Formulario -->
+          <div class="col-lg-7">
+            <div class="formulario-contacto">
+              <form>
+                <!-- Nombre -->
+                <div class="mb-3">
+                  <label for="nombreContacto" class="form-label">Nombre completo</label>
+                  <input type="text" class="form-control" id="nombreContacto" placeholder="Ej: Juan Pérez" required>
+                </div>
+                
+                <!-- Email -->
+                <div class="mb-3">
+                  <label for="emailContacto" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="emailContacto" placeholder="tu@email.com" required>
+                </div>
+                
+                <!-- Asunto -->
+                <div class="mb-3">
+                  <label for="asuntoContacto" class="form-label">Asunto</label>
+                  <select class="form-select" id="asuntoContacto" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="consulta">Consulta sobre el producto</option>
+                    <option value="pedido">Estado de mi pedido</option>
+                    <option value="soporte">Soporte técnico</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+                
+                <!-- Mensaje -->
+                <div class="mb-3">
+                  <label for="mensajeContacto" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensajeContacto" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                
+                <!-- Botón -->
+                <button type="submit" class="btn btn-primary btn-lg w-100">
+                  Enviar Mensaje
+                </button>
+              </form>
+            </div>
+          </div>
+          
+          <!-- Columna 2: Información de contacto -->
+          <div class="col-lg-5">
+            <div class="info-contacto">
+              
+              <h3>Información de Contacto</h3>
+              
+              <!-- Email -->
+              <div class="contacto-item">
+                <div class="contacto-icono">📧</div>
+                <div class="contacto-detalle">
+                  <h5>Email</h5>
+                  <p>contacto@hydrosmart.com<br>soporte@hydrosmart.com</p>
+                </div>
+              </div>
+              
+              <!-- Teléfono -->
+              <div class="contacto-item">
+                <div class="contacto-icono">📱</div>
+                <div class="contacto-detalle">
+                  <h5>Teléfono</h5>
+                  <p>+52 55 1234 5678<br>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                </div>
+              </div>
+              
+              <!-- Dirección -->
+              <div class="contacto-item">
+                <div class="contacto-icono">📍</div>
+                <div class="contacto-detalle">
+                  <h5>Dirección</h5>
+                  <p>Av. Reforma 123, Col. Centro<br>Ciudad de México, 06000</p>
+                </div>
+              </div>
+              
+              <!-- Redes Sociales -->
+              <div class="contacto-item">
+                <div class="contacto-icono">🌐</div>
+                <div class="contacto-detalle">
+                  <h5>Síguenos</h5>
+                  <div class="redes-sociales">
+                    <a href="#" class="red-social" title="Facebook">📘</a>
+                    <a href="#" class="red-social" title="Instagram">📷</a>
+                    <a href="#" class="red-social" title="Twitter">🐦</a>
+                    <a href="#" class="red-social" title="WhatsApp">💬</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          
+          <!-- Columna 1: Logo y descripción -->
+          <div class="col-md-4 mb-4">
+            <h4 class="footer-titulo">HydroSmart</h4>
+            <p class="footer-texto">La botella inteligente que cuida de tu salud e hidratación. Innovación y tecnología en tus manos.</p>
+          </div>
+          
+          <!-- Columna 2: Links rápidos -->
+          <div class="col-md-4 mb-4">
+            <h5 class="footer-subtitulo">Links Rápidos</h5>
+            <ul class="footer-links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#caracteristicas">Características</a></li>
+              <li><a href="#precios">Precios</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          
+          <!-- Columna 3: Legal -->
+          <div class="col-md-4 mb-4">
+            <h5 class="footer-subtitulo">Legal</h5>
+            <ul class="footer-links">
+              <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTerminos">Términos y Condiciones</a></li>
+              <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPrivacidad">Política de Privacidad</a></li>
+              <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEnvios">Política de Envíos</a></li>
+              <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasGarantias">Garantías</a></li>
+            </ul>
+          </div>
+          
+        </div>
+        
+        <!-- Línea divisoria -->
+        <hr class="footer-divider">
+        
+        <!-- Copyright -->
+        <div class="footer-copyright">
+          <p>&copy; 2025 HydroSmart. Todos los derechos reservados.</p>
+          <p class="footer-hecho">Hecho con ❤️ en México</p>
+        </div>
+        
+      </div>
+    </footer>
+    <!-- Offcanvas Términos y Condiciones -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTerminos" aria-labelledby="offcanvasTerminosLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasTerminosLabel">📄 Términos y Condiciones</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="terminos-contenido">
+          <h6>1. Aceptación de los Términos</h6>
+          <p>Al acceder y utilizar este sitio web, aceptas estar sujeto a estos términos y condiciones de uso.</p>
+          
+          <h6>2. Uso del Producto</h6>
+          <p>HydroSmart Pro está diseñado para uso personal de hidratación. No está destinado a fines médicos.</p>
+          
+          <h6>3. Compra y Pago</h6>
+          <p>Todos los precios están en dólares estadounidenses. Aceptamos tarjetas de crédito, débito, PayPal y pagos en tiendas.</p>
+          
+          <h6>4. Envíos</h6>
+          <p>El envío estándar es gratuito. El tiempo de entrega es de 5-7 días hábiles dentro de México.</p>
+          
+          <h6>5. Devoluciones</h6>
+          <p>Ofrecemos devoluciones dentro de los 30 días posteriores a la compra si el producto no ha sido usado.</p>
+          
+          <h6>6. Garantía</h6>
+          <p>HydroSmart Pro cuenta con garantía de 1 año contra defectos de fabricación.</p>
+          
+          <h6>7. Limitación de Responsabilidad</h6>
+          <p>No nos hacemos responsables por el uso inadecuado del producto o daños causados por negligencia del usuario.</p>
+          
+          <h6>8. Propiedad Intelectual</h6>
+          <p>Todos los contenidos de este sitio, incluyendo textos, imágenes y logotipos, son propiedad de HydroSmart.</p>
+          
+          <h6>9. Modificaciones</h6>
+          <p>Nos reservamos el derecho de modificar estos términos en cualquier momento.</p>
+          
+          <h6>10. Contacto</h6>
+          <p>Para cualquier duda sobre estos términos, contáctanos en: <strong>legal@hydrosmart.com</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offcanvas Política de Privacidad -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasPrivacidad" aria-labelledby="offcanvasPrivacidadLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasPrivacidadLabel">🔒 Política de Privacidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="terminos-contenido">
+          <h6>1. Información que Recopilamos</h6>
+          <p>Recopilamos información personal como nombre, correo electrónico, dirección y teléfono cuando realizas una compra.</p>
+          
+          <h6>2. Uso de la Información</h6>
+          <p>Utilizamos tu información para:</p>
+          <ul>
+            <li>Procesar y enviar tus pedidos</li>
+            <li>Comunicarnos contigo sobre tu compra</li>
+            <li>Mejorar nuestros servicios</li>
+            <li>Enviarte promociones (solo si lo autorizas)</li>
+          </ul>
+          
+          <h6>3. Protección de Datos</h6>
+          <p>Implementamos medidas de seguridad para proteger tu información personal contra acceso no autorizado.</p>
+          
+          <h6>4. Cookies</h6>
+          <p>Utilizamos cookies para mejorar tu experiencia en el sitio. Puedes deshabilitarlas en tu navegador.</p>
+          
+          <h6>5. Compartir Información</h6>
+          <p>No vendemos ni compartimos tu información personal con terceros, excepto cuando sea necesario para procesar tu pedido (empresas de envío).</p>
+          
+          <h6>6. Tus Derechos</h6>
+          <p>Tienes derecho a:</p>
+          <ul>
+            <li>Acceder a tu información personal</li>
+            <li>Solicitar corrección de datos incorrectos</li>
+            <li>Solicitar la eliminación de tus datos</li>
+            <li>Revocar consentimientos</li>
+          </ul>
+          
+          <h6>7. Menores de Edad</h6>
+          <p>No recopilamos intencionalmente información de menores de 18 años.</p>
+          
+          <h6>8. Cambios en la Política</h6>
+          <p>Podemos actualizar esta política. Te notificaremos de cambios importantes por correo electrónico.</p>
+          
+          <h6>9. Contacto</h6>
+          <p>Para ejercer tus derechos o consultas sobre privacidad: <strong>privacidad@hydrosmart.com</strong></p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Offcanvas Política de Envíos -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEnvios" aria-labelledby="offcanvasEnviosLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasEnviosLabel">📦 Política de Envíos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="terminos-contenido">
+          <h6>1. Cobertura de Envío</h6>
+          <p>Realizamos envíos a todo México. Para envíos internacionales, contáctanos directamente.</p>
+          
+          <h6>2. Envío Gratuito</h6>
+          <p>Todos los pedidos de HydroSmart Pro incluyen envío estándar gratuito dentro de México.</p>
+          
+          <h6>3. Tiempos de Procesamiento</h6>
+          <p>Los pedidos se procesan en 1-2 días hábiles después de confirmado el pago.</p>
+          
+          <h6>4. Tiempos de Entrega</h6>
+          <ul>
+            <li><strong>Ciudad de México y área metropolitana:</strong> 3-5 días hábiles</li>
+            <li><strong>Guadalajara, Monterrey:</strong> 4-6 días hábiles</li>
+            <li><strong>Resto del país:</strong> 5-7 días hábiles</li>
+            <li><strong>Zonas remotas:</strong> 7-10 días hábiles</li>
+          </ul>
+          
+          <h6>5. Rastreo de Pedido</h6>
+          <p>Una vez enviado tu pedido, recibirás un número de guía por correo electrónico para rastrear tu paquete.</p>
+          
+          <h6>6. Paquetería</h6>
+          <p>Trabajamos con empresas de mensajería confiables como FedEx, DHL y Estafeta.</p>
+          
+          <h6>7. Empaque</h6>
+          <p>Tu HydroSmart Pro viene en empaque premium protegido para garantizar que llegue en perfectas condiciones.</p>
+          
+          <h6>8. Problemas con el Envío</h6>
+          <p>Si tu pedido no llega en el tiempo estimado, contáctanos a: <strong>envios@hydrosmart.com</strong></p>
+          
+          <h6>9. Dirección Incorrecta</h6>
+          <p>Asegúrate de proporcionar una dirección correcta. No nos hacemos responsables por paquetes devueltos por dirección incorrecta proporcionada por el cliente.</p>
+          
+          <h6>10. Reenvíos</h6>
+          <p>Los reenvíos por dirección incorrecta del cliente tendrán un costo adicional de envío.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offcanvas Garantías -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasGarantias" aria-labelledby="offcanvasGarantiasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasGarantiasLabel">✅ Garantías</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="terminos-contenido">
+          <h6>1. Garantía de Fábrica</h6>
+          <p>HydroSmart Pro cuenta con garantía de <strong>1 año</strong> contra defectos de fabricación a partir de la fecha de compra.</p>
+          
+          <h6>2. Qué Cubre la Garantía</h6>
+          <ul>
+            <li>Defectos en materiales o mano de obra</li>
+            <li>Fallas en el sistema LED de recordatorios</li>
+            <li>Problemas con el sensor de temperatura</li>
+            <li>Defectos en la batería recargable</li>
+            <li>Problemas de conectividad con la app móvil</li>
+          </ul>
+          
+          <h6>3. Qué NO Cubre la Garantía</h6>
+          <ul>
+            <li>Daños por mal uso o negligencia</li>
+            <li>Caídas o golpes</li>
+            <li>Exposición a temperaturas extremas</li>
+            <li>Uso de líquidos no recomendados (ácidos, bebidas carbonatadas en exceso)</li>
+            <li>Modificaciones no autorizadas</li>
+            <li>Desgaste normal por uso</li>
+          </ul>
+          
+          <h6>4. Cómo Hacer Válida la Garantía</h6>
+          <p>Para solicitar servicio de garantía:</p>
+          <ol>
+            <li>Contacta a nuestro equipo: <strong>garantias@hydrosmart.com</strong></li>
+            <li>Proporciona tu número de orden</li>
+            <li>Describe el problema con detalle</li>
+            <li>Envía fotos o video si es necesario</li>
+          </ol>
+          
+          <h6>5. Proceso de Garantía</h6>
+          <p>Una vez aprobada tu solicitud:</p>
+          <ul>
+            <li>Te enviaremos una guía de devolución prepagada</li>
+            <li>Evaluaremos el producto (3-5 días hábiles)</li>
+            <li>Repararemos o reemplazaremos el producto</li>
+            <li>Te lo enviaremos de regreso sin costo</li>
+          </ul>
+          
+          <h6>6. Garantía de Satisfacción</h6>
+          <p>Si no estás satisfecho con tu HydroSmart Pro, puedes devolverlo dentro de los primeros <strong>30 días</strong> para un reembolso completo.</p>
+          
+          <h6>7. Condiciones para Devolución</h6>
+          <ul>
+            <li>Producto sin usar o con uso mínimo</li>
+            <li>En su empaque original</li>
+            <li>Con todos los accesorios incluidos</li>
+            <li>Ticket o comprobante de compra</li>
+          </ul>
+          
+          <h6>8. Soporte Técnico</h6>
+          <p>Nuestro equipo de soporte está disponible para ayudarte con cualquier duda sobre tu producto.</p>
+          
+          <h6>9. Extensión de Garantía</h6>
+          <p>Ofrecemos planes de extensión de garantía por 1 año adicional. Consulta disponibilidad.</p>
+          
+          <h6>10. Contacto</h6>
+          <p>Para cualquier consulta sobre garantías: <strong>garantias@hydrosmart.com</strong> o llama al <strong>+52 55 1234 5678</strong></p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal de Compra -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="modalCompraLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          
+          <!-- Header del modal -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalCompraLabel">Finalizar Compra</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <!-- Cuerpo del modal -->
+          <div class="modal-body">
+            <form id="formCompra">
+              
+              <!-- Resumen del producto -->
+              <div class="producto-resumen">
+                <h6>Producto seleccionado:</h6>
+                <div class="producto-info">
+                  <strong>HydroSmart Pro</strong>
+                  <span class="badge bg-secondary" id="colorSeleccionadoModal">Negro</span>
+                  <span class="badge bg-info" id="personalizacionModal">Sin personalizar</span>
+                </div>
+              </div>
+              
+              <hr>
+              
+              <!-- Cantidad -->
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="cantidad" class="form-label">Cantidad</label>
+                  <div class="input-group">
+                    <button class="btn btn-outline-secondary" type="button" id="btnMenos">-</button>
+                    <input type="number" class="form-control text-center" id="cantidad" value="1" min="1" max="10" readonly>
+                    <button class="btn btn-outline-secondary" type="button" id="btnMas">+</button>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <label class="form-label">Precio Total</label>
+                  <div class="precio-total-modal">
+                    <h3 id="precioTotalModal">$29.99</h3>
+                  </div>
+                </div>
+              </div>
+              
+              <hr>
+              
+              <!-- Información de contacto -->
+              <h6>Información de Contacto</h6>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="nombreCliente" class="form-label">Nombre completo *</label>
+                  <input type="text" class="form-control" id="nombreCliente" required placeholder="Juan Pérez">
+                </div>
+                <div class="col-md-6">
+                  <label for="emailCliente" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="emailCliente" required placeholder="tu@email.com">
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="telefonoCliente" class="form-label">Teléfono *</label>
+                  <input type="tel" class="form-control" id="telefonoCliente" required placeholder="55 1234 5678">
+                </div>
+                <div class="col-md-6">
+                  <label for="direccion" class="form-label">Dirección de envío *</label>
+                  <input type="text" class="form-control" id="direccion" required placeholder="Calle, #, Col.">
+                </div>
+              </div>
+              
+              <hr>
+              
+              <!-- Información de pago -->
+              <h6>Método de Pago</h6>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="metodoPago" id="pagoTarjeta" value="tarjeta" checked>
+                  <label class="form-check-label" for="pagoTarjeta">
+                    💳 Tarjeta de crédito/débito
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="metodoPago" id="pagoPaypal" value="paypal">
+                  <label class="form-check-label" for="pagoPaypal">
+                    💰 PayPal
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="metodoPago" id="pagoOxxo" value="oxxo">
+                  <label class="form-check-label" for="pagoOxxo">
+                    🏪 OXXO / Tiendas
+                  </label>
+                </div>
+              </div>
+              
+              <!-- Campos de tarjeta (solo visible si selecciona tarjeta) -->
+              <div id="camposTarjeta">
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <label for="numeroTarjeta" class="form-label">Número de tarjeta *</label>
+                    <input type="text" class="form-control" id="numeroTarjeta" placeholder="1234 5678 9012 3456" maxlength="19">
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="fechaExpiracion" class="form-label">Fecha de expiración *</label>
+                    <input type="text" class="form-control" id="fechaExpiracion" placeholder="MM/AA" maxlength="5">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="cvv" class="form-label">CVV *</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="123" maxlength="4">
+                  </div>
+                </div>
+              </div>
+              
+            </form>
+          </div>
+          
+          <!-- Footer del modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary btn-lg" id="btnConfirmarCompra">
+              Confirmar Compra
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+    console.log('Iniciando scripts...');
+
+    // Esperar a que Bootstrap esté cargado
+    setTimeout(function() {
+      console.log('Bootstrap cargado');
+      
+      // Obtener el elemento del carousel
+      var carouselEl = document.getElementById('carouselColores');
+      console.log('Carousel elemento:', carouselEl);
+      
+      if (!carouselEl) {
+        console.error('No se encontró el carousel');
+        return;
+      }
+      
+      // Destruir instancia previa si existe
+      var existingCarousel = bootstrap.Carousel.getInstance(carouselEl);
+      if (existingCarousel) {
+        existingCarousel.dispose();
+        console.log('Instancia previa destruida');
+      }
+      
+      // Crear nueva instancia
+      var myCarousel = new bootstrap.Carousel(carouselEl, {
+        interval: false,
+        wrap: true,
+        touch: true
+      });
+      
+      console.log('Carousel creado:', myCarousel);
+      
+      // Probar cambio manual
+      console.log('Probando cambio a slide 2...');
+      myCarousel.to(2);
+      
+      // Botones de color
+      var colorBtns = document.querySelectorAll('.color-btn');
+      console.log('Botones encontrados:', colorBtns.length);
+      
+      colorBtns.forEach(function(btn, index) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          console.log('Click en botón', index);
+          
+          // Remover active
+          colorBtns.forEach(function(b) {
+            b.classList.remove('active');
+          });
+          
+          // Agregar active
+          this.classList.add('active');
+          
+          // Actualizar texto
+          var color = this.getAttribute('data-color');
+          document.getElementById('colorTexto').textContent = color;
+          console.log('Color:', color);
+          
+          // Cambiar slide
+          var slideNum = parseInt(this.getAttribute('data-slide'));
+          console.log('Cambiando a slide:', slideNum);
+          
+          myCarousel.to(slideNum);
+        });
+      });
+      
+      // Personalización
+      var checkPersonalizar = document.getElementById('personalizarCheck');
+      var camposPersonalizar = document.getElementById('camposPersonalizacion');
+      var precioNum = document.getElementById('precioNumero');
+      
+      checkPersonalizar.addEventListener('change', function() {
+        if (this.checked) {
+          camposPersonalizar.style.display = 'block';
+          precioNum.textContent = '34';
+        } else {
+          camposPersonalizar.style.display = 'none';
+          precioNum.textContent = '29';
+          document.getElementById('nombrePersonalizado').value = '';
+          document.getElementById('emojiTexto').textContent = 'Ninguno';
+          document.querySelectorAll('.emoji-btn').forEach(function(b) {
+            b.classList.remove('active');
+          });
+        }
+      });
+      
+      // Emojis
+      var emojiBtns = document.querySelectorAll('.emoji-btn');
+      emojiBtns.forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          e.preventDefault();
+          emojiBtns.forEach(function(b) {
+            b.classList.remove('active');
+          });
+          this.classList.add('active');
+          document.getElementById('emojiTexto').textContent = this.getAttribute('data-emoji');
+        });
+      });
+      
+      console.log('Scripts completados');
+      
+    }, 500);
+    // ===== FUNCIONALIDAD DEL MODAL DE COMPRA =====
+
+    // Actualizar información del modal cuando se abre
+    var modalCompra = document.getElementById('modalCompra');
+    modalCompra.addEventListener('show.bs.modal', function () {
+      // Obtener color seleccionado
+      var colorActual = document.getElementById('colorTexto').textContent;
+      document.getElementById('colorSeleccionadoModal').textContent = colorActual;
+      
+      // Verificar personalización
+      var esPersonalizado = document.getElementById('personalizarCheck').checked;
+      var nombrePers = document.getElementById('nombrePersonalizado').value;
+      var emojiPers = document.getElementById('emojiTexto').textContent;
+      
+      if (esPersonalizado && nombrePers) {
+        document.getElementById('personalizacionModal').textContent = nombrePers + ' ' + emojiPers;
+        document.getElementById('personalizacionModal').className = 'badge bg-success';
+      } else {
+        document.getElementById('personalizacionModal').textContent = 'Sin personalizar';
+        document.getElementById('personalizacionModal').className = 'badge bg-info';
+      }
+      
+      // Actualizar precio
+      actualizarPrecioTotal();
+    });
+
+    // Controles de cantidad
+    var cantidad = 1;
+    var precioUnitario = parseFloat(document.getElementById('precioNumero').textContent);
+
+    document.getElementById('btnMenos').addEventListener('click', function() {
+      if (cantidad > 1) {
+        cantidad--;
+        document.getElementById('cantidad').value = cantidad;
+        actualizarPrecioTotal();
+      }
+    });
+
+    document.getElementById('btnMas').addEventListener('click', function() {
+      if (cantidad < 10) {
+        cantidad++;
+        document.getElementById('cantidad').value = cantidad;
+        actualizarPrecioTotal();
+      }
+    });
+
+    function actualizarPrecioTotal() {
+      var precioBase = parseFloat(document.getElementById('precioNumero').textContent);
+      var total = precioBase * cantidad;
+      document.getElementById('precioTotalModal').textContent = '$' + total.toFixed(2);
+    }
+
+    // Mostrar/ocultar campos de tarjeta
+    document.querySelectorAll('input[name="metodoPago"]').forEach(function(radio) {
+      radio.addEventListener('change', function() {
+        var camposTarjeta = document.getElementById('camposTarjeta');
+        if (this.value === 'tarjeta') {
+          camposTarjeta.style.display = 'block';
+        } else {
+          camposTarjeta.style.display = 'none';
+        }
+      });
+    });
+
+    // Confirmar compra
+    document.getElementById('btnConfirmarCompra').addEventListener('click', function() {
+      var form = document.getElementById('formCompra');
+      
+      if (form.checkValidity()) {
+        alert('¡Gracias por tu compra! Recibirás un correo de confirmación pronto.');
+        var modal = bootstrap.Modal.getInstance(modalCompra);
+        modal.hide();
+        
+        // Resetear formulario
+        form.reset();
+        cantidad = 1;
+        document.getElementById('cantidad').value = 1;
+      } else {
+        alert('Por favor completa todos los campos requeridos.');
+      }
+    });
+    </script>
+  </body>
+</html>
