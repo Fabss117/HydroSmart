@@ -43,6 +43,41 @@ section{
     transition: background-color 0.2s ease;
 }
 
+@media (max-width: 991px) {
+  .efecto_menu {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  
+  .efecto_menu .nav-link {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .efecto_menu .nav-link:last-child {
+    border-bottom: none;
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 50px;
+  }
+  
+  .hero-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.85rem !important;
+  }
+}
+
 /*--HERO--*/
 
 .hero{
@@ -1232,3 +1267,4 @@ section{
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
 
 }
+
